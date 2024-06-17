@@ -1,12 +1,12 @@
 "use client";
 
 import React from "react";
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import HeroPicture from "../components/HeroPicture";
-import AboutMe from "../components/AboutMe";
-import Cards from "../components/Cards";
-import Portfolio from "../components/Portfolio";
+import Navbar from "../components/Navbar.jsx";
+import Hero from "../components/Hero.jsx";
+import HeroPicture from "../components/HeroPicture.jsx";
+import AboutMe from "../components/AboutMe.jsx";
+import Cards from "../components/Cards.jsx";
+import Portfolio from "../components/Portfolio.jsx";
 import { useState } from "react";
 
 export default function Home({ Component, pageProps }) {
