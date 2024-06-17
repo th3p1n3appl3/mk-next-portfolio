@@ -23,4 +23,6 @@ const Hero = () => {
     );
 };
 
-export default Hero;
+export default function MyComponent() {
+    return <Hero />;
+}
