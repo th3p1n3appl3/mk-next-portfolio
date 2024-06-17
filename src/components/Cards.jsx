@@ -3,7 +3,6 @@ import Design from "/public/design.png";
 import Image from "next/image";
 import Code from "/public/code.png";
 import Consulting from "/public/consulting.png";
-import Nextlogo from "/public/nextlogo.png";
 
 const Cards = () => {
   return (

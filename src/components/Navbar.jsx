@@ -8,7 +8,7 @@ const Navbar = () => {
   const [darkMode, setDarkMode] = useState(false);
   return (
     <nav className="py-10 mb-12 flex justify-between">
-      <h1 className="text-xl">Martin Kosel</h1>
+      <h1 className="text-xl"></h1>
       <ul className="flex items-center">
         <li>
           <BsFillMoonStarsFill
