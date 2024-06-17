@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
 import HeroPicture from "../components/HeroPicture";
 import AboutMe from "../components/AboutMe";
 import Cards from "../components/Cards";
