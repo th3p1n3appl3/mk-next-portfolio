@@ -1,22 +1,26 @@
-import Image from "next/image";
-import Head from "next/head";
-import { BsFillMoonStarsFill } from "react-icons/bs";
+import React from "react";
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import HeroPicture from "../components/HeroPicture";
+import AboutMe from "../components/AboutMe";
+import Cards from "../components/Cards";
 
 export default function Home() {
   return (
     <main className="bg-white px-10">
       <section className="min-h-screen">
-        <nav className="py-10 mb-12 flex justify-between">
-          <h1 className="text-xl">Martin Kosel</h1>
-          <ul className="flex items-center">
-            <li>
-              <BsFillMoonStarsFill className="cursor-pointer text-2xl" />
-            </li>
-            <li>
-              <a href="#" className=" bg-gradient-to-r from-cyan-500 to-teal-300 text-white px-4 py-2 rounded-md ml-8">Resume</a>
-            </li>
-          </ul>
-        </nav>
+        <Navbar />
+        <Hero />
+        <HeroPicture />
+      </section>
+      <section>
+        <AboutMe />
+        <Cards />
+      </section>
+      <section>
+        <div>
+          <h3 className="text-3xl py-1">Portfolio</h3>
+        </div>
       </section>
     </main>
   );
